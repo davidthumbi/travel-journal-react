@@ -16,6 +16,7 @@ nav {
     align-items: center;
     margin: 10px;
     border-radius: 15px 15px 0 0;
+    gap: 2px;
 }
 
 nav h1{
@@ -42,12 +43,21 @@ nav h1{
 .location--details {
     display: flex;
     align-items: center;
-    gap: 15px;
+}
+
+.pin {
+    color: red;
+    display: flex;
+}
+
+.pin > h2 {
+    color: black;
 }
 
 .location--country {
     font-weight: 100;
     font-size: 14px;
+    margin-right: 20px;
 }
 
 .location--details a {
